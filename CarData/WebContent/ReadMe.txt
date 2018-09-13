@@ -1,0 +1,9 @@
+WebContent：存放项目jsp、js、css等web前端文件
+内容明细
+*css文件夹：存放项目网页相关css布局文件
+*fonts文件夹：存放网页字体文件
+*img文件夹：存放网页显示的图片文件
+*js文件夹：存放项目相关的js文件，包括功能实现和外部引入
+*index.jsp：网站主页jsp文件
+*web.xml：servlet配置文件
+*META-INF、WEB-INF文件夹为系统项目自动生成

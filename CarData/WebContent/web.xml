@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ScoreServlet</servlet-name>
+    <servlet-class>CarData.ScoreServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ScoreServlet</servlet-name>
+    <url-pattern>/ScoreServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CharacterServlet</servlet-name>
+    <servlet-class>CarData.CharacterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CharacterServlet</servlet-name>
+    <url-pattern>/CharacterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PraiseServlet</servlet-name>
+    <servlet-class>CarData.PraiseServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PraiseServlet</servlet-name>
+    <url-pattern>/PraiseServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CarSelectServlet</servlet-name>
+    <servlet-class>CarData.CarSelectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CarSelectServlet</servlet-name>
+    <url-pattern>/CarSelectServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectServlet</servlet-name>
+    <servlet-class>CarData.SelectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SelectServlet</servlet-name>
+    <url-pattern>/SelectServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PurposeServlet</servlet-name>
+    <servlet-class>CarData.PurposeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PurposeServlet</servlet-name>
+    <url-pattern>/PurposeServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AreaServlet</servlet-name>
+    <servlet-class>CarData.AreaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AreaServlet</servlet-name>
+    <url-pattern>/AreaServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowPurposeServlet</servlet-name>
+    <servlet-class>CarData.ShowPurposeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShowPurposeServlet</servlet-name>
+    <url-pattern>/ShowPurposeServlet</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ConsumptionServlet</servlet-name>
+    <servlet-class>CarData.ConsumptionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ConsumptionServlet</servlet-name>
+    <url-pattern>/ConsumptionServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdviseServlet</servlet-name>
+    <servlet-class>CarData.AdviseServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdviseServlet</servlet-name>
+    <url-pattern>/AdviseServlet</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
